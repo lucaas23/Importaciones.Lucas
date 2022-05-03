@@ -1,0 +1,54 @@
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+body h1 {
+  display: flex;
+  justify-content: center;
+  background-color: lightseagreen;
+}
+body .logo {
+  display: flex;
+  justify-content: center;
+}
+body nav {
+  display: flex;
+  justify-items: center;
+}
+body nav .inicio1 a:hover {
+  background-color: lightseagreen;
+  border-radius: 6px;
+  padding: 20px;
+}
+body nav .hombres1 a:hover {
+  background-color: lightseagreen;
+  border-radius: 6px;
+  padding: 15px;
+}
+body nav .mujeres1 a:hover {
+  background-color: lightseagreen;
+  border-radius: 6px;
+  padding: 15px;
+}
+body nav .producto1 a:hover {
+  background-color: lightseagreen;
+  border-radius: 6px;
+  padding: 15px;
+}
+body nav .contacto1 a:hover {
+  background-color: lightseagreen;
+  border-radius: 6px;
+  padding: 15px;
+}
+body nav main {
+  height: 15px;
+  width: 15px;
+}
+footer img{
+  display: flex;
+  width:25px ;
+  height:25px ;
+}
+
+/*# sourceMappingURL=index.css.map */

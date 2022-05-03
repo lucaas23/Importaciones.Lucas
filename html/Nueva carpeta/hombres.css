@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:ital@0;1&family=Rubik+Wet+Paint&display=swap');
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    
+    background-color: black;  
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(2);
+    grid-template-areas:
+    "h1 h1 "
+    "nav logo"
+    
+    
+    ;
+}
+.logo{
+    grid-area: logo;
+    display: flex;
+    justify-items: center;
+    height: 300px;
+    width: 300px;
+
+}
+nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    grid-area: h1;
+    background: lightseagreen;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: all 3s ease-in-out; 
+    
+}
+li{
+    margin: 40px;
+}
+footer img{
+    display: flex;
+    width:25px ;
+    height:25px ;
+    background-color: black;
+}
+/*Inicio de transicion y animacion*/
+.hombres1:hover{
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 4s ;
+
+}
+.inicio1:hover{
+    transform: scale(1);
+    background-color: lightseagreen;
+
+}
+.producto1:hover{
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 4s ;
+
+}
+.mujeres1:hover{
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 4s ;
+
+}
+.contacto1:hover{
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 4s ;
+
+}
+.envio1:hover{
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 4s ;
+}
+

@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    h1{
+        display: flex;
+        justify-content: center;
+        background-color: lightseagreen;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        justify-items: center;
+        .inicio1 a:hover{
+            background-color: lightseagreen;
+            border-radius: 6px;
+            padding:20px ;
+        }
+        .hombres1 a:hover{
+            background-color: lightseagreen;
+            border-radius: 6px;
+            padding:15px ;
+        }    
+        .mujeres1 a:hover{
+            background-color: lightseagreen;
+            border-radius: 6px;
+            padding:15px ;
+
+        }
+        .producto1 a:hover{
+            background-color: lightseagreen;
+            border-radius: 6px;
+            padding:15px ;
+
+        }   
+        .contacto1 a:hover{
+            background-color: lightseagreen;
+            border-radius: 6px;
+            padding:15px ;
+
+        }
+footer img{
+        .insta{
+            height: 15px;
+            width: 15px;
+        }
+}
+    
+    
+    
+    
+    }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
