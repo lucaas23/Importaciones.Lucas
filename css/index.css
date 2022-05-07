@@ -1,48 +1,33 @@
 body {
   background-color: black;
-  font-family: "Roboto", sans-serif;
-}
-body h1 {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(32, 90, 178);
-}
-body .logo {
-  display: flex;
-  justify-content: center;
-}
-body nav {
-  display: flex;
-  justify-content: flex-start;
-}
-body nav .inicio1 a:hover {
-  background-color: lightslategray;
-  border-radius: 1px;
-  padding: 15px;
-}
-body nav .hombres1 a:hover {
-  background-color: lightslategray;
-  border-radius: 1px;
-  padding: 15px;
-}
-body nav .mujeres1 a:hover {
-  background-color: lightslategray;
-  border-radius: 1px;
-  padding: 15px;
-}
-body nav .producto1 a:hover {
-  background-color: lightslategray;
-  border-radius: 1px;
-  padding: 15px;
-}
-body nav .contacto1 a:hover {
-  background-color: lightslategray;
-  border-radius: 1px;
-  padding: 15px;
-}
-body nav .imagenesfooter {
-  width: 15px;
-  height: 15px;
-}
-
-/*# sourceMappingURL=index.css.map */
+  font-family: 'Roboto', sans-serif; }
+  body h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #205ab2; }
+  body nav {
+    display: flex;
+    justify-content: flex-start; }
+    body nav .inicio1 a:hover {
+      background-color: lightslategray;
+      border-radius: 1px;
+      padding: 15px; }
+    body nav .hombres1 a:hover {
+      background-color: lightslategray;
+      border-radius: 1px;
+      padding: 15px; }
+    body nav .mujeres1 a:hover {
+      background-color: lightslategray;
+      border-radius: 1px;
+      padding: 15px; }
+    body nav .producto1 a:hover {
+      background-color: lightslategray;
+      border-radius: 1px;
+      padding: 15px; }
+    body nav .contacto1 a:hover {
+      background-color: lightslategray;
+      border-radius: 1px;
+      padding: 15px; }
+    body nav .imagenesfooter {
+      width: 15px;
+      height: 15px; }
