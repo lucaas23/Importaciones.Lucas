@@ -4,7 +4,15 @@ body {
   body h1 {
     display: flex;
     justify-content: center;
-    background-color: #205ab2; }
+    background-color: lightgrey; }
+  body h2 {
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen; }
+  body h3 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray; }
   body .logo {
     padding: 20px;
     margin-top: 15px; }
@@ -13,19 +21,19 @@ body {
     justify-content: flex-start; }
     body nav .inicio1 a:hover {
       background-color: lightslategray;
-      border-radius: 1px;
+      border-radius: 12px;
       padding: 15px; }
     body nav .hombres1 a:hover {
       background-color: lightslategray;
-      border-radius: 1px;
+      border-radius: 12px;
       padding: 15px; }
     body nav .mujeres1 a:hover {
       background-color: lightslategray;
-      border-radius: 1px;
+      border-radius: 12px;
       padding: 15px; }
     body nav .producto1 a:hover {
       background-color: lightslategray;
-      border-radius: 1px;
+      border-radius: 12px;
       padding: 15px; }
     body nav .contacto1 a:hover {
       background-color: lightslategray;

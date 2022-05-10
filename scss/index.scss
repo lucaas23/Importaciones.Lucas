@@ -6,7 +6,17 @@ body{
     h1{
         display: flex;
         justify-content: center;
-        background-color: rgb(32, 90, 178);
+        background-color: lightgrey;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        background-color: lightseagreen;
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        background-color: lightgray;
     }
     .logo{
         padding: 20px;
@@ -17,23 +27,23 @@ body{
         justify-content: flex-start;
         .inicio1 a:hover{
             background-color: lightslategray;
-            border-radius: 1px;
+            border-radius: 12px;
             padding:15px ;
         }
         .hombres1 a:hover{
             background-color: lightslategray;
-            border-radius: 1px;
+            border-radius: 12px;
             padding:15px ;
         }    
         .mujeres1 a:hover{
             background-color: lightslategray;
-            border-radius: 1px;
+            border-radius: 12px;
             padding:15px ;
 
         }
         .producto1 a:hover{
             background-color: lightslategray;
-            border-radius: 1px;
+            border-radius: 12px;
             padding:15px ;
 
         }   
