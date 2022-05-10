@@ -5,6 +5,9 @@ body {
     display: flex;
     justify-content: center;
     background-color: #205ab2; }
+  body .logo {
+    padding: 20px;
+    margin-top: 15px; }
   body nav {
     display: flex;
     justify-content: flex-start; }
