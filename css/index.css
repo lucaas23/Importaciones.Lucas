@@ -28,23 +28,28 @@ body {
     body nav .inicio1 a:hover {
       background-color: lightslategray;
       border-radius: 12px;
-      padding: 15px; }
+      padding: 15px;
+      transition: 0.5s; }
     body nav .hombres1 a:hover {
       background-color: lightslategray;
       border-radius: 12px;
-      padding: 15px; }
+      padding: 15px;
+      transition: 0.5s; }
     body nav .mujeres1 a:hover {
       background-color: lightslategray;
       border-radius: 12px;
-      padding: 15px; }
+      padding: 15px;
+      transition: 0.5s; }
     body nav .producto1 a:hover {
       background-color: lightslategray;
       border-radius: 12px;
-      padding: 15px; }
+      padding: 15px;
+      transition: 0.5s; }
     body nav .contacto1 a:hover {
       background-color: lightslategray;
       border-radius: 1px;
-      padding: 15px; }
+      padding: 15px;
+      transition: 0.5s; }
     body nav .imagenesfooter {
       width: 15px;
       height: 15px; }
