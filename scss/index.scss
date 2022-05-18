@@ -1,76 +1,62 @@
-
-
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
 body{
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     h1{
         display: flex;
         justify-content: center;
-        background-color: lightgrey;
+        background-color: rgb(0, 0, 0);
         font-weight: bold;
     }
     h2{
         display: flex;
         justify-content: center;
         background-color: lightseagreen;
+        font-weight: bold;
     }
     h3{
         display: flex;
         justify-content: center;
         background-color: lightgray;
+        font-weight: 900;
     }
     h4{
         display: flex;
         justify-content: center;
         background-color: grey;
-        font-weight: 600;
+        font-weight: 900;
     }
     .logo{
-        padding: 20px;
-        margin-top: 15px;
+        font-size: 100px;
+        padding: 0 75px;
+        margin-top: 15px;    
     }
-    nav{
+    .cuadro{
         display: flex;
-        justify-content: flex-start;
-        .inicio1 a:hover{
+        justify-content: center;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        padding: 0 auto;
+        font-weight: 500;
+        
+        .nav-item a:hover{
             background-color: lightslategray;
             border-radius: 12px;
             padding:15px ;
             transition: 0.5s;
         }
-        .hombres1 a:hover{
-            background-color: lightslategray;
-            border-radius: 12px;
-            padding:15px ;
-            transition: 0.5s;
-        }    
-        .mujeres1 a:hover{
-            background-color: lightslategray;
-            border-radius: 12px;
-            padding:15px ;
-            transition: 0.5s;
-
-        }
-        .producto1 a:hover{
-            background-color: lightslategray;
-            border-radius: 12px;
-            padding:15px ;
-            transition: 0.5s;
-
-        }   
-        .contacto1 a:hover{
-            background-color: lightslategray;
-            border-radius: 1px;
-            padding:15px ;
-            transition: 0.5s;
-
         }
         .imagenesfooter{
             width: 15px;
             height: 15px;
         }
     
-    }   
 
 
 

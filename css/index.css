@@ -1,55 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
 body {
   background-color: black;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto Mono', monospace; }
   body h1 {
     display: flex;
     justify-content: center;
-    background-color: lightgrey;
+    background-color: black;
     font-weight: bold; }
   body h2 {
     display: flex;
     justify-content: center;
-    background-color: lightseagreen; }
+    background-color: lightseagreen;
+    font-weight: bold; }
   body h3 {
     display: flex;
     justify-content: center;
-    background-color: lightgray; }
+    background-color: lightgray;
+    font-weight: 900; }
   body h4 {
     display: flex;
     justify-content: center;
     background-color: grey;
-    font-weight: 600; }
+    font-weight: 900; }
   body .logo {
-    padding: 20px;
+    font-size: 100px;
+    padding: 0 75px;
     margin-top: 15px; }
-  body nav {
+  body .cuadro {
     display: flex;
-    justify-content: flex-start; }
-    body nav .inicio1 a:hover {
+    justify-content: center; }
+  body .nav {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 0 auto;
+    font-weight: 500; }
+    body .nav .nav-item a:hover {
       background-color: lightslategray;
       border-radius: 12px;
       padding: 15px;
       transition: 0.5s; }
-    body nav .hombres1 a:hover {
-      background-color: lightslategray;
-      border-radius: 12px;
-      padding: 15px;
-      transition: 0.5s; }
-    body nav .mujeres1 a:hover {
-      background-color: lightslategray;
-      border-radius: 12px;
-      padding: 15px;
-      transition: 0.5s; }
-    body nav .producto1 a:hover {
-      background-color: lightslategray;
-      border-radius: 12px;
-      padding: 15px;
-      transition: 0.5s; }
-    body nav .contacto1 a:hover {
-      background-color: lightslategray;
-      border-radius: 1px;
-      padding: 15px;
-      transition: 0.5s; }
-    body nav .imagenesfooter {
-      width: 15px;
-      height: 15px; }
+  body .imagenesfooter {
+    width: 15px;
+    height: 15px; }
